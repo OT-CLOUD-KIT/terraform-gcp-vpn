@@ -1,0 +1,9 @@
+project_id       = "your-gcp-project-id"
+region           = "asia-south1"
+network          = "projects/your-gcp-project-id/global/networks/your-existing-vpc"
+peer_ip_address  = "203.0.113.10" # Documentation-only placeholder; replace it.
+local_asn        = 64514
+peer_asn         = 64515
+
+# Do not store the real shared secret in this file.
+# Supply ipsec_shared_secret through a secure variable source.
